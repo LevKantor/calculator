@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 344px;
+  height: 545px;
+  margin: 50px auto;
+  border: 3px black solid;
+}
+
+.header {
+  background-color: aliceblue;
+  border-top: 2px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 4px solid black;
+  width: 340px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.output {
+  border-bottom: 2px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 90px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: end;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.output-operation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  font-size: 23px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.output-value {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.btns-field {
+  display: flex;
+  width: 344px;
+  height: 402px;
+  flex-direction: row-reverse;
+}
+
+.btns-operations {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  width: 86px;
+  height: 79px;
+  background-color: rgb(223, 225, 223);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btns:hover {
+  background-color: grey;
+}
+
+.btn-equals {
+  background-color: rgb(103, 166, 221);
+}
+
+.btn-equals:hover {
+  background-color: rgb(7, 81, 145);
+}
+
+.btn-num {
+  background-color: aliceblue;
+}
+
+.btn-num:hover {
+  background-color: rgb(160, 194, 223);
+}
